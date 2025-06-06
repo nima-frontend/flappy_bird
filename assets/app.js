@@ -81,7 +81,7 @@ window.addEventListener('keydown',(e)=>{
 })
 window.addEventListener('touchstart',jump)
 window.addEventListener('click',jump)
-restart.addEventListener('click',()=>window.location.href = '/index.html')
+restart.addEventListener('click',()=>window.location.href = '/flappy-bird/index.html')
 leave.addEventListener('click',()=> window.close())
  
 
