@@ -47,7 +47,7 @@ self.addEventListener("fetch", (event) => {
       return (
         cachedResponse ||
         fetch(event.request).catch(() =>
-          caches.match("/index.html") // fallback for offline
+          caches.match("/flappy_bird/") // fallback for offline
         )
       );
     })
