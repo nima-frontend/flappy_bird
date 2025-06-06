@@ -81,7 +81,7 @@ window.addEventListener('keydown',(e)=>{
 })
 window.addEventListener('touchstart',jump)
 window.addEventListener('click',jump)
-restart.addEventListener('click',()=>location.reload())
+restart.addEventListener('click',()=>window.location.href = '/')
 leave.addEventListener('click',()=> window.close())
  
 
