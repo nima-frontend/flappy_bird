@@ -1,7 +1,7 @@
 # Flappy Bird PWA version
 
 I've created a simple flappy bird version which i would update and enhance in the future.
-
+notes: quit button only works offline due to browser policies
 ## Click the Link for Demo
 
 <a href="https://nima-frontend.github.io/flappy_bird/" target="_blank">
